@@ -10,6 +10,9 @@
 - Created temporary "what.md" file. Used for brainstorming ideas. First idea added. (Disc rot keep in checker)
 
 ## 24/07/26
-- Second idea added (VHS mold preventor)
+- Second idea added (Mold preventor)
 - Slight modifications to idea #1.
 - Started work on "README.md"
+
+## 31/07/26
+- Combined ideas 1 & 2 as they were too similar, and would be better as one. Major additional alterations & additions to them as well.
