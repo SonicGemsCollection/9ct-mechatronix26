@@ -56,7 +56,7 @@ oh yeah also it might also be useful in areas where a dehumidifier wouldn't be a
 |Temperature too hot and too humid|Temperature sensor detects over 45°C and moisture detector detects over 50%|Buzz three times, blink LED 1, keep LED 2 on.|
 
 ### other random things:
-**Efficiency:** Effective as a detector. Could probably link up a system to a dehumidifier.
+**Efficiency:** Effective as a detector. Could probably link up a system to a dehumidifier (unlikely). Either that, or it could serve as a way to save some money off an energy bill.
 
 **Response Time:** Probably between 20-30 seconds.
 
