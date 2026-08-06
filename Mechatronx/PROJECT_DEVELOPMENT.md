@@ -22,3 +22,9 @@
 - added a slight bit of another thing I could do in the efficiency section of "what.md" and also thought another idea would probably be impossible to do in the time I have.
 - added "flowchart.png" to "img" folder
 - where was my "main.py"? anyway, it's added to "PICOrgriffin" folder now. Added basic structure to "main.py" and 'while True:' also.
+
+## 6/08/26
+- ughh i didnt get enough sleep last night
+- Minor comment alteration in "main.py"; code alterations / additions in same file. (just a lot of a mix of pseudocode & python.)
+- Added line in "README.md".
+- four characters altered in "what.md".

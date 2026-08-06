@@ -42,8 +42,8 @@ oh yeah also it might also be useful in areas where a dehumidifier wouldn't be a
 
 ### In layman's terms:
 1. If:
-- Moisture detector goes over 50%, buzz, 1 LED.
-- OR temperature detector goes over ~45ish???°C, buzz, 2 LED.
+- Moisture detector goes over 45%, buzz, 1 LED.
+- OR temperature detector goes over ~30ish???°C, buzz, 2 LED.
 2. If both are out of range, make 1st LED blink.
 3. Make an on/off switch. Enables / disables the thing.
 
