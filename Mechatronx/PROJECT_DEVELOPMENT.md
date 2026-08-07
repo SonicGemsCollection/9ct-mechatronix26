@@ -28,3 +28,7 @@
 - Minor comment alteration in "main.py"; code alterations / additions in same file. (just a lot of a mix of pseudocode & python.)
 - Added line in "README.md".
 - four characters altered in "what.md".
+
+## 7/08/26
+- code updates in "main.py"
+- minor alterations in "README.md".
