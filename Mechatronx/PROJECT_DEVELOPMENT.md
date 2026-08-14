@@ -30,5 +30,10 @@
 - four characters altered in "what.md".
 
 ## 7/08/26
-- code updates in "main.py"
+- code updates in "main.py", started error correction & intergration in main script, added on / off routine.
 - minor alterations in "README.md".
+
+## 14/08/26
+- well dang i have 10 floppy disks to keep in check now, add them to the "what.md"!
+- code updates in "main.py", started error correction in burn script, humid script planned to be done later.
+- the programmer WILL have a nap soon.

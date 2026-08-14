@@ -15,7 +15,7 @@ I am a PC software archivist. Many of my older PC games/programs are on CD-ROMs 
 
 Alongside optical media, I also own a small amount of various videocassette tapes. Mold is an issue I've seen way more than once, either in my grandmother's own collection or in thrift / antique stores. Mold, unlike disc rot, is more common and affects all magnetic media formats equally. I know there's specialised cleaners for VHS tapes and cassette tapes, but more obscure formats like MiniDV or Video 2000 might not. And besides, I think prevention is better. Removers might scrape off some of the magnetic coating on the tape.
 
-Alternatively, I might get into collecting / archiving old PC / Commodore 64 / Amiga / Famicom Disk System / whatever floppy disks (& relatives) just to "extend my archival efforts" or something like that. Mold. like cassette tapes also grow on floppy disks.
+Alternatively, I own a total of 10 floppy disks (technically 11 but the 11th is at my grandma's). Mold. like cassette tapes also grow on floppy disks.
 
 I guess I also noticed some black mold growing on / around the plug hole cover in one of my bathrooms (fortunately not severe, yet). Might be more useful to a wider demographic than just Grandma with her 24 years of television from 1980 to 2004.
 

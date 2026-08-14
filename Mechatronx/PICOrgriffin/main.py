@@ -73,9 +73,10 @@ if humidval > 45:
 
 # this is where the too hot routine (burn) should start
 '''This part here is gonna be when the sensor detects over 37°C.
-It will scream at you in double intervals and shine an LED.'''
+It will scream at you in double intervals and shine an LED.
+If this works first try it is guaranteed one of my Atari 2600 Q*Bert carts will be Q*Bert's Qubes.'''
 
-'''def burn():
+def burn():
     # if also humid, start a new thing, end self and humid.
     if humidon == 1:
         aah = 1
@@ -86,7 +87,7 @@ It will scream at you in double intervals and shine an LED.'''
     elif hoton == 1:
         while hoton == 1:
             # if cool
-            if temp =< 37:
+            if temp <= 37:
                 # phew, we're fine now.
                 hoton = 0
                 end
@@ -96,11 +97,12 @@ It will scream at you in double intervals and shine an LED.'''
                 # beep twice and shine led
                 # wait for 2 secs
                 # loop
+                junk = 17 # temporary junk variable
             #if something goes wrong
             else:
                 print("The programmer has a nap.")
                 print("Hold out! Programmer!")
-                print("Error in hot routine.)'''
+                input("Error in hot routine.")
 # this is where the too hot routine (burn) should end
 
 
@@ -131,7 +133,7 @@ It is relatively similar to the burn routine, only slightly modified.'''
             else:
                 print("The programmer has a nap.")
                 print("Hold out! Programmer!")
-                print("Error in humid routine.)'''
+                input("Error in humid routine.")'''
 
 # this is where the too humid routine (sweat) should end
 
@@ -145,7 +147,7 @@ while aah == 1:
     # if still in panic
     if humidval > 45 and temp > 37:
         # scream in triple intervals and show both leds
-        # wait for 1 sec ''''''this is serious stuff here this is urgent''' '''
+        # wait for 1 sec #this is serious stuff here this is urgent
         # loop
     # if humid is back:
     elif humidval =< 45 and temp > 37:
@@ -168,16 +170,16 @@ while aah == 1:
     else:
         print("The programmer has a nap.")
         print("Hold out! Programmer!")
-        print("Error in humid and hot routine.)'''
+        input("Error in humid and hot routine.)'''
 # this is where the too hot and humid routine (dying) should end
 
 # this is where the on/off routine (onoff) should begin.
 def onoff():
     while True:
-        if switchon == 1:
+        if switchon == 1 or switchon == True:
         # do nothing, still on
             switch == True
-        elif switchon == 0:
+        elif switchon == 0 or switchon == False:
         # turn off
             switch == False 
         else:
