@@ -37,3 +37,8 @@
 - well dang i have 10 floppy disks to keep in check now, add them to the "what.md"!
 - code updates in "main.py", started error correction in burn script, humid script planned to be done later.
 - the programmer WILL have a nap soon.
+
+## 18/08/26
+- stage 7: acceptance
+- i am not getting this finished.
+- i at least kinda got an led working.

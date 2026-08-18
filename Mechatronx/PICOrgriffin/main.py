@@ -4,6 +4,13 @@
  this file is where the code should be. it should be what runs on the pico you should have.
  load this file onto there."""
 
+# this sets up the components.
+import machine
+import utime
+
+# set up lights
+led1 = machine.Pin(15, machine.Pin.OUT)
+
 # this sets up variables.
 temp = 0
 humidval = 0
@@ -12,6 +19,9 @@ hoton = 0
 junk = 0
 switch = True
 switchon = 1
+neenaw = 440
+aah = 0
+
 
 # this is where the main routine (main) should start
 
@@ -97,7 +107,11 @@ def burn():
                 # beep twice and shine led
                 # wait for 2 secs
                 # loop
-                junk = 17 # temporary junk variable
+                for i in range:
+                    led1.value(1) # shines the led
+                    utime.sleep(0.3)  # Wait for 0.3 seconds
+                    led1.value(0) # turns off the led
+                    utime.sleep(0.3)  # Wait for 0.3 seconds, repeat until okay.
             #if something goes wrong
             else:
                 print("The programmer has a nap.")
@@ -119,7 +133,7 @@ It is relatively similar to the burn routine, only slightly modified.'''
     elif humidon == 1:
         while humidon == 1:
             # if dry
-            elif humidval =< 45:
+            if humidval <= 45:
                 # good
                 humidon = 0
                 end
@@ -128,7 +142,8 @@ It is relatively similar to the burn routine, only slightly modified.'''
                 # not good
                 # beep once and show different led
                 # wait for 2 secs
-                # loop
+                # loop. junk value as a placeholder.
+                junk = 19
             #if something goes wrong
             else:
                 print("The programmer has a nap.")
@@ -143,38 +158,40 @@ It will scream at you in triple intervals and shine 2 LEDs.
 It will be a unique routine.'''
 
 '''def dying():
-while aah == 1:
-    # if still in panic
-    if humidval > 45 and temp > 37:
-        # scream in triple intervals and show both leds
-        # wait for 1 sec #this is serious stuff here this is urgent
-        # loop
-    # if humid is back:
-    elif humidval =< 45 and temp > 37:
-        # better.
-        hoton = 1
-        aah = 0
-        end
-    # if hot is back:
-    elif humidval > 45 and temp =< 37:
-        #meh
-        humidon = 1
-        aah = 0
-        end
-    # in exceptional cases where both hot and humid are back at the same time:
-    elif humidval =< 45 and temp =< 37:
-        #grest (great)
-        aah = 0
-        end
-    # if something goes wrong:
-    else:
-        print("The programmer has a nap.")
-        print("Hold out! Programmer!")
-        input("Error in humid and hot routine.)'''
+    while aah == 1:
+        # if still in panic
+        if humidval > 45 and temp > 37:
+            # scream in triple intervals and show both leds
+            # wait for 1 sec #this is serious stuff here this is urgent
+            # loop
+            # temp junk value
+            junk = 29
+        # if humid is back:
+        elif humidval <= 45 and temp > 37:
+            # better.
+            hoton = 1
+            aah = 0
+            end
+        # if hot is back:
+        elif humidval > 45 and temp <= 37:
+            #meh
+            humidon = 1
+            aah = 0
+            end
+        # in exceptional cases where both hot and humid are back at the same time:
+        elif humidval <= 45 and temp <= 37:
+            #grest job (great)
+            aah = 0
+            end
+        # if something goes wrong:
+        else:
+            print("The programmer has a nap.")
+            print("Hold out! Programmer!")
+            input("Error in humid and hot routine.")'''
 # this is where the too hot and humid routine (dying) should end
 
 # this is where the on/off routine (onoff) should begin.
-def onoff():
+'''def onoff():
     while True:
         if switchon == 1 or switchon == True:
         # do nothing, still on
@@ -185,9 +202,9 @@ def onoff():
         else:
             print("The programmer has a nap.")
             print("Hold out! Programmer!")
-            input("Error in on / off routine.")
+            input("Error in on / off routine.")'''''
 
 
 # this is where the program all begins.
-onoff()
+#onoff()
 main()
