@@ -40,5 +40,10 @@
 
 ## 18/08/26
 - stage 7: acceptance
-- i am not getting this finished.
-- i at least kinda got an led working.
+- i am not getting this finished
+- i at least kinda got an led working???
+
+## 20/08/26
+- august 18 me can't do the 5 stages of grief correct lololol
+- Minor rearrangements in "main.py"
+- Edits in "README.md"

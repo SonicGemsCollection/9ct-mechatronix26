@@ -8,8 +8,13 @@
 import machine
 import utime
 
-# set up lights
+# set up components
 led1 = machine.Pin(15, machine.Pin.OUT)
+'''led2 = machine.Pin(##, machine.Pin.OUT)
+led3 = machine.Pin(##, machine.Pin.OUT)
+buzz = machine.Pin(##, machine.Pin.OUT)
+moistd = machine.Pin(##, machine.Pin.IN)
+heatd = machine.Pin(##, machine.Pin.IN)'''
 
 # this sets up variables.
 temp = 0
@@ -28,7 +33,6 @@ aah = 0
 # turn power led on to tell you that it's on
 def main():
     while switch == True:
-        input("this is where the main routine should begin. This does nothing currently, by the way. Wanna test?")
         if temp <= 37:
             # good. go to next part. just to make sure, set a junk value that is there to make sure code doesnt go bad.
             junk = 1
@@ -92,7 +96,7 @@ def burn():
         aah = 1
         humidon = 0
         hoton = 0
-        end
+        # end
     # if not humid, do this.
     elif hoton == 1:
         while hoton == 1:
@@ -100,7 +104,7 @@ def burn():
             if temp <= 37:
                 # phew, we're fine now.
                 hoton = 0
-                end
+                # end
             #if still hot
             elif temp > 37:
                 # we're not good at all
@@ -162,7 +166,7 @@ It will be a unique routine.'''
         # if still in panic
         if humidval > 45 and temp > 37:
             # scream in triple intervals and show both leds
-            # wait for 1 sec #this is serious stuff here this is urgent
+            # wait for 1 sec # this is serious stuff here this is urgent
             # loop
             # temp junk value
             junk = 29
